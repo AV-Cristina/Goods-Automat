@@ -67,7 +67,7 @@ void Customer::InputMoney()
 //_________________ Возврат оплаты __________________________________________
 void Customer::ReturnMoney()
 {
- ShowMessage("Возьмите Ваши не деньги");
+ ShowMessage("Возьмите Ваши деньги");
  Form1->Edit1->Text = "";
  Form1->Edit2->Text = "";
 }
